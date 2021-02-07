@@ -1,3 +1,76 @@
+/* Ajout de css nécessaire à l'application des recommandations */
+@font-face {
+    font-family: 'kingthings_petrock_lightRg';
+    src: url('./fonts/Kingthings_Petrock_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.citation-png {
+    color: #575757;
+    font-size: 1.4em;
+    font-style: italic;
+    margin-bottom: 13px;
+}
+
+.citation-png span {
+    font-size: 0.7em;
+    font-style: normal;
+}
+
+.la-chouette-agence-png {
+    font-family: 'kingthings_petrock_lightRg', Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.title-png {
+    color: #575757;
+    font-size: 1.55em;
+    height: 84px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.title2-png {
+    color: #575757;
+    font-size: 1.55em;
+    height: 99px;
+    padding-top: 20px;
+}
+
+@media all and (max-width: 595px) {
+    .title-png {
+        font-size: 1.0em;
+    }
+}
+
+@media all and (max-width: 510px) {
+    .citation-png {
+        font-size: 1em;
+    }
+}
+
+@media all and (max-width: 420px) {
+    .title2-png {
+        font-size: 1.0em;
+    }
+}
+
+@media all and (max-width: 390px) {
+    .title-png {
+        font-size: 0.8em;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .citation-png {
+        font-size: 0.85em;
+    }
+}
+
+/***************************************************************/
+
 body {
     margin: 0;
     padding: 0;
@@ -303,7 +376,7 @@ a:hover {
 
 .navbar-brand img {
     max-height: 200px;
-    margin: 0 5px 0 0;
+    margin: 0px;  /* Modification du css, nécessaire à l'application des recommandations */
     display: inline;
 }
 
