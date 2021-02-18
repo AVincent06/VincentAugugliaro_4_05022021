@@ -883,13 +883,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF;
+    background-color: #F3976C;  /* correction de contraste */
+    color : #503737;            /* correction de contraste */
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956;
-    color: #FFFFFF;
+    background-color: #f7b697;  /* correction de contraste */
+    color : #503737;            /* correction de contraste */
 }
 
 .ltc-white {
